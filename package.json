@@ -1,0 +1,21 @@
+{
+  "name": "yjs-example",
+  "version": "0.0.0-dev",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toby Sullivan <toby@computomatic.com>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "pnpm@10.5.2",
+  "dependencies": {
+    "yjs": "^13.6.24"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
